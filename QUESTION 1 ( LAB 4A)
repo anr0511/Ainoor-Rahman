@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WELCOME TO CHANGE  </title>
+    <script>
+        function changeContent() 
+        
+        {
+            document.getElementById('myElement').getElementsByTagName('p')[0].innerText = 'Hello there!';
+        }
+    </script>
+</head>
+<body>
+
+    <h1>HAI . WELCOME </h1>
+    <h3> The Content will be change to another </h3>
+    
+
+<div id="myElement">
+  <p>Welcome to my website!</p>
+</div>
+<button onclick="changeContent()">CHANGE WORD</button>
+<h2><i>Click The Button!!!!</i></h2>
+</body>
+</html>
